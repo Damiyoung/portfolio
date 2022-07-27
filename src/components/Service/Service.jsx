@@ -1,6 +1,5 @@
 import "./service.css"
 import {BiCheck} from 'react-icons/bi'
-import {HiUserGroup} from 'react-icons/hi'
 
 const service = () => {
   return (

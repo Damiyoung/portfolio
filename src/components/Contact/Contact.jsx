@@ -33,7 +33,7 @@ const   Contact = () => {
       <MdAttachEmail className="contact_option-icons"/>
       <h4>Email</h4>
       <h5>damiyoung30@gmail.com</h5>
-      <a href="mailto:damiyoung30@gmail.com" target="_blank">Send a Message</a>
+      <a href="mailto:damiyoung30@gmail.com" rel="noreferrer" target="_blank" >Send a Message</a>
 
     </article>
 
@@ -41,7 +41,7 @@ const   Contact = () => {
       <RiMessengerLine className="contact_option-icons"/>
       <h4>Messenger</h4>
       <h5>@adekule_emmanuel_esan</h5>
-      <a href="https://www.facebook.com/adekunleemmanuel.esan" target="_blank">Send a Message</a>
+      <a href="https://www.facebook.com/adekunleemmanuel.esan"  rel="noreferrer" target="_blank">Send a Message</a>
 
     </article>
 
@@ -49,7 +49,7 @@ const   Contact = () => {
       <BsWhatsapp className="contact_option-icons"/>
       <h4>Email</h4>
       <h5>Whatsapp </h5>
-      <a href="https://api.whatsapp.com/send?phone+2349057560881 " target="_blank">Send a Message</a>
+      <a href="https://api.whatsapp.com/send?phone+2349057560881 " rel="noreferrer" target="_blank" >Send a Message</a>
     
     </article>
   </div>
