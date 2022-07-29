@@ -1,5 +1,5 @@
 import "./experiance.css"
-import {BsCheck2All, BsGithub} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
 import {TbBrandNextjs,TbBrandPhp,TbBrandFirebase} from 'react-icons/tb'
 import {DiReact, DiNodejsSmall,DiGitMerge, DiLaravel} from 'react-icons/di'
 import {SiTailwindcss, SiStyledcomponents,SiMaterialui,SiMongodb,SiExpress,SiTypescript} from 'react-icons/si'
