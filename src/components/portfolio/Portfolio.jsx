@@ -9,7 +9,7 @@ const data = [
   id:1,
   image:IMG,
   title:'Portfolio Website',
-  github:"https://github.com",
+  github:"https://github.com/Damiyoung/portfolio",
 
 },
 
@@ -17,7 +17,7 @@ const data = [
   id:1,
   image:IMG1,
   title:'Eccomarce Website',
-  github:"https://github.com",
+  github:"https://github.com/Damiyoung/vadd_ecommerce",
 
 },
 

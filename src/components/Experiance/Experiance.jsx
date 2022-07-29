@@ -1,5 +1,11 @@
 import "./experiance.css"
-import {BsCheck2All} from 'react-icons/bs'
+import {BsCheck2All, BsGithub} from 'react-icons/bs'
+import {TbBrandNextjs,TbBrandPhp,TbBrandFirebase} from 'react-icons/tb'
+import {DiReact, DiNodejsSmall,DiGitMerge, DiLaravel} from 'react-icons/di'
+import {SiTailwindcss, SiStyledcomponents,SiMaterialui,SiMongodb,SiExpress,SiTypescript} from 'react-icons/si'
+
+
+
 const Experiance = () => {
   return (
  <section id="experiance">
@@ -11,7 +17,7 @@ const Experiance = () => {
       <h3>Frontend Development</h3>
       <div className="experience_content">
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <DiReact className="experience_details-icon"/>
          <div>
          <h4>ReactJS</h4>
           <small className="text-light">Experienced </small>
@@ -19,14 +25,14 @@ const Experiance = () => {
         </article>
        
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <SiTailwindcss className="experience_details-icon"/>
          <div>
          <h4>Tailwind</h4>
           <small className="text-light">Experienced </small>
          </div>
         </article>
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <SiStyledcomponents className="experience_details-icon"/>
          <div>
          <h4>Style Componet</h4>
           <small className="text-light">Intermediate </small>
@@ -34,14 +40,14 @@ const Experiance = () => {
         </article>
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <DiReact className="experience_details-icon"/>
          <div>
          <h4>React-icons</h4>
           <small className="text-light">Experienced </small>
          </div>
         </article>
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <SiMaterialui className="experience_details-icon"/>
          <div>
          <h4>Material UI</h4>
           <small className="text-light">Intermediate </small>
@@ -58,48 +64,48 @@ const Experiance = () => {
 <h3>Backend Development</h3>
       <div className="experience_content">
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <DiNodejsSmall className="experience_details-icon"/>
          <div>
 
          <h4>NodeJS</h4>
-          <small className="text-light">Experienced </small>
+          <small className="text-light">Intermediate </small>
 
          </div>
         </article>
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <SiMongodb className="experience_details-icon"/>
           <div>
           <h4>MongoDB</h4>
-          <small className="text-light">Experienced</small>
+          <small className="text-light">Intermediate </small>
 
           </div>
         </article>
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <SiExpress className="experience_details-icon"/>
          <div>
 
          <h4>Express.js</h4>
-          <small className="text-light">Experienced </small>
+          <small className="text-light">Intermediate  </small>
 
          </div>
         </article>
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <BsGithub className="experience_details-icon"/>
           <div>
-          <h4>GitHub</h4>
-          <small className="text-light">Experienced</small>
+          <h4>Github</h4>
+          <small className="text-light">Intermediate </small>
 
           </div>
         </article> 
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <DiGitMerge className="experience_details-icon"/>
           <div>
           <h4>git</h4>
-          <small className="text-light">Experienced</small>
+          <small className="text-light">Intermediate </small>
 
           </div>
         </article> 
@@ -114,7 +120,7 @@ const Experiance = () => {
 <h3>The Ones i am currently learning</h3>
       <div className="experience_content">
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <TbBrandNextjs className="experience_details-icon"/>
          <div>
 
          <h4>Nest JS</h4>
@@ -124,7 +130,7 @@ const Experiance = () => {
         </article>
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <TbBrandPhp className="experience_details-icon"/>
           <div>
           <h4>PHP</h4>
           
@@ -133,7 +139,7 @@ const Experiance = () => {
         </article>
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <DiLaravel className="experience_details-icon"/>
          <div>
 
          <h4>Laravel</h4>
@@ -142,7 +148,7 @@ const Experiance = () => {
         </article>
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <SiTypescript className="experience_details-icon"/>
           <div>
           <h4>Typescript</h4>
       
@@ -151,7 +157,7 @@ const Experiance = () => {
         </article> 
 
         <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
+          <TbBrandFirebase className="experience_details-icon"/>
           <div>
           <h4>Firebase</h4>
       
