@@ -13,18 +13,11 @@ const Experiance = () => {
         <article className="experience_details">
           <BsCheck2All className="experience_details-icon"/>
          <div>
-         <h4>Html</h4>
+         <h4>ReactJS</h4>
           <small className="text-light">Experienced </small>
          </div>
         </article>
-        <article className="experience_details">
-          <BsCheck2All className="experience_details-icon"/>
-         <div>
-         <h4>Css</h4>
-          <small className="text-light">Intermediate </small>
-         </div>
-        </article>
-
+       
         <article className="experience_details">
           <BsCheck2All className="experience_details-icon"/>
          <div>
@@ -101,6 +94,16 @@ const Experiance = () => {
 
           </div>
         </article> 
+
+        <article className="experience_details">
+          <BsCheck2All className="experience_details-icon"/>
+          <div>
+          <h4>git</h4>
+          <small className="text-light">Experienced</small>
+
+          </div>
+        </article> 
+
 
        </div>
 </div>
