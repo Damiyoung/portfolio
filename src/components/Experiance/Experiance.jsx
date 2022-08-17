@@ -2,7 +2,7 @@ import "./experiance.css"
 import {BsGithub} from 'react-icons/bs'
 import {TbBrandNextjs,TbBrandPhp,TbBrandFirebase} from 'react-icons/tb'
 import {DiReact, DiNodejsSmall,DiGitMerge, DiLaravel} from 'react-icons/di'
-import {SiTailwindcss, SiStyledcomponents,SiMaterialui,SiMongodb,SiExpress,SiTypescript} from 'react-icons/si'
+import {SiTailwindcss, SiStyledcomponents,SiMaterialui,SiMongodb,SiExpress,SiTypescript,SiWordpress} from 'react-icons/si'
 
 
 
@@ -23,6 +23,15 @@ const Experiance = () => {
           <small className="text-light">Experienced </small>
          </div>
         </article>
+
+        <article className="experience_details">
+          <SiWordpress className="experience_details-icon"/>
+         <div>
+         <h4>Wordpress</h4>
+          <small className="text-light">Experienced </small>
+         </div>
+        </article>
+
        
         <article className="experience_details">
           <SiTailwindcss className="experience_details-icon"/>
